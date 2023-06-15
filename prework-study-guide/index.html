@@ -16,44 +16,97 @@
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <ol>
-            <li>Common tags include Title, Style, base, link, meta, script, charset, and viewport.</li>
-          </ol>
-     <li>The body element represents the visible content shown to the user.</li>
-     <ol>
-      <li>Common tags include H1-6, p, ul ol and li, img, br and a.</li>
-     </ol>
+        <ol>
+          <li>Elements are types of content on a webpage, the two most important of which are head and body elements.</li>
+          <li>The head element contains information about the webpage, known as metadata, which helps the browser render correctly..</li>
+          <ul>
+            <li>Common tags include: Title, Style, base, link, meta, script, charset, and viewport.</li>
+            </li>
+          </ul>
+     <li>The body element represents the visible content shown to the user, which they can see and interact with.</li>
+     <ul>
+            <li>Common tags include H1-6, p, ul ol and li, img, br and a.</li>
+     </ul>
      <li>Attributes define additional information for an element.</li>
-        </ul>
+     <li>Elements inside of another elements are called Child Elements. The original is now called a Parent element.
+      <li>Semantic Elements are elements where the name of the element describes the content and the role it plays. An example would be a table element.</li>
+      <li>Element vs tag: Tags are what is inside of angle brackets, and element is everything in between opening and closing brackets. </li>
+      <li>Headings are at the top, contain h1-h6 info.</li>
+      <li>Footer tags are at the bottom, contain info such as copyright, author, ect.</li>
+    </li>
+
+        </ol>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
-        <ul>
+        <ol>
+          <li> CSS, or Cascading Style Sheets, defines colors, aesthetics, visual layout and organization.</li>
+          <li>There are three ways to style a webpage using CSS.</li>
+                <ul>
+                  <li> Inline, which is to style directly witht he HTML file.</li>
+                  <li> Internal CSS Sheets, which is to insert CSS directly into the head section of an HTML file.</li>
+                  <li> External CSS files, which is the practice of keeping CSS in a seperate file, then linking to that file in the Doc.</li>
+                </ul>
+          
           <li>A margin indicates how much space we want around the outside of an element.</li>
-  <li>A padding indicates how much space we want around the content inside an element.</li>
-        </ul>
+           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>An important concept for coding is Seperation of concerns, which is the practice of keeping code in different files based on use. </li>
+          <li> DRY Method - Do Not Repeat Yourself. Keep code simple!</li>
+          <li> Declerations are used in CSS to provide values. They consist of values and propertys (of that value).</li>
+        </ol>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <ul>
-          <li>Enter your Git notes here</li>
-          <li>git status: checks what branch we are currently on</li>
-    <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-        </ul>
+        <ol>
+          <li> Creating a branch:
+            <ul> 
+                <li> navigate to correct directory using cd commands</li>
+                <li> check your current git branch with git status command</li>
+                <li> Use git checkout main to commit your staged content as a new commit snapshot</li>
+                <li> git checkout -b "descriptive name" to create a new branch in your github repo.</li>
+            </ul>
+          </li>
+          <li> Closing a branch: 
+            <ul> 
+                <li> git add -A : stages changes to the working directory.</li>
+                <li> git commit -m ["descriptive message"]: commits your staged content as a new commit snapshot.</li>
+                <li> git pull origin main: Pulls the base branch into the feature branch.</li>
+                <li> git push origin "name of branch": pushes up all changes into git. </li> 
+            </ul>
+          </li>
+          <li> Additional commands and options can be found in the git and cls cheat sheets.</li>
+        
+        </ol>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
-        <ul>
-          <ul>
-            <li>A variable is a named container that allows us to store data in our code.</li>
+
+          <ol>
+            <li>Javascript is a highend dynamic language which allows users to interact with websites. It offers such benifts such as: 
+              <ul>
+                  <li> Effects, interactivity, data communication, variables, strings, data types, ect.!</li>
+              </ul>
+            </li>
+            <li>Variables are containers which store values.</li>
+            <li> Comments are a useful function within Java that allows devs to add text to a code which the code will ignore. Used to describe parts of the code to themselves or others. </li>
             <li>Control flow is the order in which a computer executes code in a script.</li>
-          </ul>
-        </ul>
+            <li> Conditionals are code functions that allow you to test if an expression is true or not. ( EG: if/else) </li>
+            <li> Functions allow you to package functionality that you wish to resuse.
+                <ul> 
+                    <li> A set of instructions that tell the computer how to preform a certain task. </li>
+                      <li> Does not run automatically, only when "called", also known as an event. </li>
+                      <li> Example code: "function.makeTea()" - "console.log("Heating up the water!)" - makeTea()"</li>
+                    
+                </ul>
+            </li>
+            <li> Events are code structures which "listen" for activity in the browser and run code is response.</li>
+
+
+          </ol>
+
       </section>>
     </main>
 
